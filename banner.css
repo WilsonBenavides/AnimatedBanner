@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bigelow+Rules|Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 
 .banner {
 	width: 900px;
@@ -30,9 +30,14 @@
 	margin: 0;
 }
 
+[class^="txt"] {
+	z-index: 200;
+}
+
 .img01 {
 	bottom: 0px;
 	left: 80px;
+	z-index: 300;
 }
 
 .txt-heading01 {
@@ -65,4 +70,12 @@
 	font-size: 60px;
 	left: 600px;
 	top: 180px; 	
+}
+
+.img-snow01 {
+	z-index: 100;
+}
+
+.img-snow02 {
+	z-index: 400;
 }

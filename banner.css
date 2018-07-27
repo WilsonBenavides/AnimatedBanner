@@ -39,6 +39,10 @@
 	left: 400px;
 }
 
+.txt-heading02 {
+	left: 400px;
+} 
+
 .txt01, .txt02 {font-size: 100px;}
 
 .txt01 {
@@ -49,4 +53,16 @@
 .txt02 {
 	left: 610px;
 	top: 180px; 
+}
+
+.txt03 {
+	font-size: 100px;
+	left: 500px;
+	top: 110px;
+}
+
+.txt04 {
+	font-size: 60px;
+	left: 600px;
+	top: 180px; 	
 }

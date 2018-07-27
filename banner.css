@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bigelow+Rules|Pathway+Gothic+One');
+
 .banner {
 	width: 900px;
 	height: 300px;
@@ -7,4 +9,15 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	-o-border-radius: 20px;
+}
+
+.banner h3 {
+	color: #5f8cbf;
+	font-family: 'Pathway Gothic One', Helvetica, 'Arial Narrow', sans-serif; 
+}
+
+.banner p {
+	color: #ea5858;
+	font-family: 'Bigelow Rules', sans-serif;
+
 }

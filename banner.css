@@ -4,6 +4,7 @@
 	width: 900px;
 	height: 300px;
 	margin: 0 auto;
+	position: relative;
 	background: url('img/banner-bg.jpg') top left no-repeat;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -19,5 +20,11 @@
 .banner p {
 	color: #ea5858;
 	font-family: 'Bigelow Rules', sans-serif;
+}
 
+[class^="txt"], [class^="img"] {
+	position: absolute;
+	margin: 0;
+	top: 0px;
+	left: 0px;
 }

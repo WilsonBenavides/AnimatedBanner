@@ -14,7 +14,10 @@
 
 .banner h3 {
 	color: #5f8cbf;
-	font-family: 'Pathway Gothic One', Helvetica, 'Arial Narrow', sans-serif; 
+	font-family: 'Pathway Gothic One', Helvetica, 'Arial Narrow', sans-serif;
+	top: 37px;
+	text-transform: uppercase;
+	font-size: 50px; 
 }
 
 .banner p {
@@ -25,6 +28,25 @@
 [class^="txt"], [class^="img"] {
 	position: absolute;
 	margin: 0;
-	top: 0px;
-	left: 0px;
+}
+
+.img01 {
+	bottom: 0px;
+	left: 80px;
+}
+
+.txt-heading01 {
+	left: 400px;
+}
+
+.txt01, .txt02 {font-size: 100px;}
+
+.txt01 {
+	left: 550px;
+	top: 110px;
+}
+
+.txt02 {
+	left: 610px;
+	top: 180px; 
 }

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Bigelow+Rules|Pathway+Gothic+One');
+@import url(animation.css);
 
 .banner {
 	width: 900px;
@@ -73,9 +74,11 @@
 }
 
 .img-snow01 {
+	-webkit-animation: snowfall 5s linear infinite;
 	z-index: 100;
 }
 
 .img-snow02 {
 	z-index: 400;
+	-webkit-animation: snowfall 1s linear infinite;
 }
